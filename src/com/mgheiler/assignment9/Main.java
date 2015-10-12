@@ -37,5 +37,8 @@ public class Main {
         System.out.println(houseA);
         System.out.println(houseB);
 
+        // Part 3
+        TriangleTable.printTriangleTableBetween(1, 10);
+
     }
 }
