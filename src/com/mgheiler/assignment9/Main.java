@@ -40,5 +40,9 @@ public class Main {
         // Part 3
         TriangleTable.printTriangleTableBetween(1, 10);
 
+        // Part 4
+        System.out.println("The monthly payments for a $1000 loan for two years at an interest rate of 5% is " + Financial.loanAmountRequired(1000, .05, 24));
+        System.out.println("The remaning balance table is: ");
+        Financial.printBalanceAfterLoanPaymentsTable(1000, 0.05, 24);
     }
 }
