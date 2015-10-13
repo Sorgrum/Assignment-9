@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Part 1
+        System.out.println("Part 1");
         Fish fishA = new Fish("", 0.0);
         Fish fishB = new Fish("", 0.0);
         Fish fishC = new Fish("", 0.0);
@@ -23,6 +24,7 @@ public class Main {
         System.out.println(fishC);
 
         // Part 2
+        System.out.println("\nPart 2");
         House houseA = new House(0, 0, 0);
         House houseB = new House(0, 0, 0);
 
@@ -38,9 +40,11 @@ public class Main {
         System.out.println(houseB);
 
         // Part 3
+        System.out.println("\nPart 3");
         TriangleTable.printTriangleTableBetween(1, 10);
 
         // Part 4
+        System.out.println("\nPart 4");
         System.out.println("The monthly payments for a $1000 loan for two years at an interest rate of 5% is " + Financial.loanAmountRequired(1000, .05, 24));
         System.out.println("The remaning balance table is: ");
         Financial.printBalanceAfterLoanPaymentsTable(1000, 0.05, 24);
